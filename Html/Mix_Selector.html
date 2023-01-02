@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed_Selector</title>
+    <style>
+        .s1 {
+            color: rgb(219, 217, 229);
+        }
+
+        .container {
+            background-color: hsl(141, 55%, 41%);
+            max-width: 50%;
+            font-size: 1.2rem;
+        }
+
+        /* !important */
+        .container li {
+            color: #263d99;
+        }
+
+        .randomtext {
+            color: teal;
+        }
+
+        li.randomtext {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="randomtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque incidunt, consequuntur
+        soluta omnis
+        laudantium sit veritatis vitae voluptate! Corrupti sequi eaque vero aperiam vel possimus fugiat eos, nemo, ut at
+        molestias consectetur ipsa omnis beatae necessitatibus non deleniti. Debitis et odio at? Excepturi, temporibus
+        officiis. Doloremque optio distinctio deleniti ab unde dolor, quae, asperiores sequi, iusto excepturi tempora
+        fugiat sit corporis consectetur. Exercitationem modi provident consequuntur sunt animi nesciunt ipsa asperiores
+        suscipit necessitatibus debitis? Necessitatibus dolore dignissimos ut fuga, magnam dolorem minima, quos
+        laboriosam repellat porro et reiciendis. Rerum accusamus in facere asperiores maxime voluptate dolorem nemo hic
+        consequatur!</p>
+    <ul>
+        <li>Inline Style</li>
+        <li class="randomtext">External Style</li>
+        <li>Internal Style </li>
+    </ul>
+    <div class="container">
+        <h3>this is the <span class="s1">root</span> of div</h3>
+        <ul>
+            <li>Inline Style</li>
+            <li>External Style</li>
+            <li>Internal Style </li>
+        </ul>
+        <!-- this is a comment -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam maiores nesciunt magni a, quos asperiores
+            illum exercitationem quod numquam, porro dolore odio nostrum animi quidem magnam incidunt libero fugit?</p>
+
+    </div>
+</body>
+
+</html>
